@@ -1,0 +1,116 @@
+#panda {
+	background-image: url("images/pandas-happy-birthday-mom.gif");
+	height: 164px;
+	width: 220px;
+	border: 7px solid white;
+	border-radius: 7px;
+/*	margin: 20px auto;*/
+	display: inline;
+	margin-left: 10px;
+}
+
+.happy {
+	display: flex;
+	justify-content: center;
+
+}
+
+body {
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+	background: linear-gradient(skyblue, lightpink);
+	color: #ffffff;
+	font-size: 30px;
+}
+
+h1, h2, h3, h4, p {
+	text-shadow: 0px 0px 2px black;
+}
+
+#portrait {
+	width: 300px;
+	border: 10px solid #efb0c9;
+	border-radius: 50%;
+}
+
+#bday-age {
+	background-color: #efb0c9;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 15px 0px 15px 0px;
+}
+
+#bday-date {
+	background-color: #efb0c9;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 0;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gift-section {
+	margin-top: 80px;
+}
+
+.bday-m {
+	margin: 0px 0px 20px 0px;
+}
+
+.bday-hover {
+	margin: 0px 0px 20px 0px;
+}
+
+#bday-gif {
+	width: 500px;
+	border: 6px solid white;
+	border-radius: 6px;
+	background-image: url("images/gift-cover.jpg");
+	background-size: cover;
+	height: 500px;
+	margin: 0 auto;
+}
+
+#bday-gif:hover {
+	background-image: url("images/lets-get-this-party-started-yeah.gif");
+}
+
+
+
+#party-gif {
+	width: 500px;
+	height: 220px;
+	border: 6px solid black;
+	border-radius: 6px;
+	background-image: url("images/party-minions.gif");
+	margin: 0 auto;
+}
+
+#cake {
+	background-image: url("images/gift-cover.jpg");
+	background-size: cover;
+	height: 350px;
+	width: 220px;
+	border: 6px solid black;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+#cake:hover {
+	background-image: url("images/mom-birthday.gif");
+}
+
+#footer {
+	font-style: italic;
+	margin: 10px;
+}
+
+#maker {
+	margin-bottom: 2px;
+}
