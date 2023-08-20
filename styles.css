@@ -114,3 +114,18 @@ h1, h2, h3, h4, p {
 #maker {
 	margin-bottom: 2px;
 }
+
+.memories {
+	border: 6px solid white;
+	border-radius: 6px;
+	margin: 0 20px 0 20px;
+}
+
+#kashid {
+	width: 478px;
+}
+
+#deepawali {
+	width: 300px;
+}
+
